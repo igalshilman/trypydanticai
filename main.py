@@ -7,8 +7,9 @@ the agent will use the `get_lat_lng` tool to get the latitude and longitude of t
 the `get_weather` tool to get the weather.
 
 Run with:
+   uv add uvicorn
 
-    uv run -m pydantic_ai_examples.weather_agent
+   uv run uvicorn run main:app 
 """
 
 
